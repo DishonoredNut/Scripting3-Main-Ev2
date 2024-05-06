@@ -106,19 +106,70 @@ top : 110px;
 {
     height :830px;
     width : 1400px; 
-    background-color: rgb(168, 6, 6);
+    background-color: rgb(43, 39, 39);
     position: absolute;
     top: 150px;
     left: 200px;
-    opacity: 0.9;
+    opacity: 1;
 }
-img{
+
+img /*speaker mesh*/ {
     height: 830px;
-    width: 200px;
+    width: 1400px;
     position: absolute;
     top: 150px;
     left: 200px;
 }
+
+#Block9/*speaker main*/
+{
+    height: 500px ;
+    width: 500px;
+    background-color: rgb(10, 10, 10);
+    position: relative;
+    top: 300px;
+    left:670px;
+    opacity: 0.9;
+    border: 5px;
+    border-radius: 50%;
+    border: 5px;
+    border-radius: 50%;
+    border-color: brown;
+    border-style: dotted;
+}
+#Block10 /*speaker small*/
+{
+    height: 200px ;
+    width: 200px;
+    background-color: rgb(10, 10, 10);
+    position: relative;
+    top: -450px;
+    left:820px;
+    opacity: 0.9;
+    border: 5px;
+    border-radius: 50%;
+    border-color: brown;
+    border-style: dotted;
+   
+}
+
+#Block11 /*red tri*/
+{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(219, 11, 11);
+    position: absolute;
+    border-right-width: 50px;
+    border-left-width:50px ;
+    border-top-width:10px;
+    left : 50px;
+}
+
+
+
+
+
+
 
  
 
