@@ -9,6 +9,8 @@ var currentlyPlaying = false;
 var audio = document.getElementById("sound2");
 var currentlyPlaying = false;
 
+/*1st button set*/
+
 function playSound() {
     if (!currentlyPlaying) {
         audio.play();
@@ -31,6 +33,7 @@ document.addEventListener("keypress", function(event) {
         stopSound();
     }
 });
+/*second button set (non functioning)*/
 
 function playSound1() {
     if (!currentlyPlaying) {
@@ -51,6 +54,9 @@ document.addEventListener("keypress", function(event) {
     if (event.key === "w") {
         playSound1();
     } else if (event.key === "s") {
-        stopSound1();
+        stopSound();
     }
 });
+
+
+/*add anims*/

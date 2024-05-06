@@ -120,6 +120,30 @@ img /*speaker mesh*/ {
     top: 150px;
     left: 200px;
 }
+@keyframes pulse {
+    0% {
+        border-color: brown;
+    }
+    50% {
+        border-color: rgb(38, 0, 255); /* Change for my desired pulse colour */
+    }
+    100% {
+        border-color: rgb(238, 1, 139);
+    }
+}
+
+/* Applies the animation to both blocks */
+#Block9, #Block10 {
+    animation-name: none; /*  no animation */
+    animation-duration: 2s; /* Animation duration */
+    animation-iteration-count: infinite; /* Loops the animation infinitely */
+}
+
+/* Class Define  */
+.pulse-animation {
+    animation-name: pulse;
+}
+
 #Block9/*speaker main*/
 {
     height: 500px ;
